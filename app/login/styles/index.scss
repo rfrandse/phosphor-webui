@@ -26,6 +26,17 @@
     max-width: 200px;
     display: block;
     margin-bottom: 2em;
+    margin-left: 22%;
+    @include mediaQuery(small) {
+      margin-bottom: 4em;
+    }
+  }
+  .builton__logo {
+    max-width: 100px;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 30%;
     @include mediaQuery(small) {
       margin-bottom: 4em;
     }
